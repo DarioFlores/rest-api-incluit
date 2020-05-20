@@ -1,0 +1,28 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarioFlores/rest-api-incluit.git"
+  },
+  "author": "Flores Dario Exequiel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarioFlores/rest-api-incluit/issues"
+  },
+  "homepage": "https://github.com/DarioFlores/rest-api-incluit#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
